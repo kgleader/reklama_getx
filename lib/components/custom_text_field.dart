@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 
 class CustomTextField extends StatelessWidget {
   const CustomTextField({
@@ -10,6 +11,7 @@ class CustomTextField extends StatelessWidget {
     this.focusNode,
     this.prefixIcon,
     this.suffixIcon,
+    required Obx child,
   }) : super(key: key);
 
   final String? hintText;
