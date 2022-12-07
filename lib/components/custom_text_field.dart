@@ -11,7 +11,7 @@ class CustomTextField extends StatelessWidget {
     this.focusNode,
     this.prefixIcon,
     this.suffixIcon,
-    required Obx child,
+    this.Obx,
   }) : super(key: key);
 
   final String? hintText;
@@ -21,6 +21,7 @@ class CustomTextField extends StatelessWidget {
   final FocusNode? focusNode;
   final Widget? prefixIcon;
   final Widget? suffixIcon;
+  final Widget? Obx;
 
   @override
   Widget build(BuildContext context) {

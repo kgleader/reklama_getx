@@ -21,6 +21,7 @@ class AddProductPage extends StatelessWidget {
   final _userName = TextEditingController();
   final _address = TextEditingController();
   final _price = TextEditingController();
+
   List<XFile> images = [];
 
   @override
